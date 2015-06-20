@@ -1,0 +1,25 @@
+{
+  "name": "list.exportable.js",
+  "main": "dist/list.exportable.js",
+  "version": "0.1.1",
+  "authors": [
+    "Alexandre Voiney <bonjour@alexandre.voiney.fr>"
+  ],
+  "description": "A export plugin for List.js",
+  "keywords": [
+    "export",
+    "csv",
+    "list.js",
+    "list"
+  ],
+  "license": "MIT",
+  "homepage": "http://listjs.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ]
+}

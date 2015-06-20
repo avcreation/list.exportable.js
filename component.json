@@ -1,0 +1,24 @@
+{
+  "name": "list.exportable.js",
+  "repo": "avcreation/list.exportable.js",
+  "description": "A export plugin for List.js",
+  "version": "0.1.1",
+  "keywords": [],
+  "dependencies": {
+    "component/classes": "*",
+    "component/event": "*",
+    "component/indexof": "*"
+  },
+  "development": {
+    "visionmedia/mocha": "*",
+    "avcreation/expect.js": "0.3.1",
+    "jquery/jquery": "1.10.2",
+    "javve/list.js": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "twitter": "@alex_voiney"
+}
