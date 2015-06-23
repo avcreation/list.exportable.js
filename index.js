@@ -104,6 +104,8 @@ module.exports = function (options) {
       exportLinkTemplate = options.exportLinkTemplate || "<a href=''>Export {{type}}</a>",
       i = 0;
 
+    // reset linContainers
+    $(linkContainersSelector).html("");
     for (i = 0; i < type.length; ++i) {
       $(linkContainersSelector)
         .append(exportLinkTemplate.replace("{{type}}", type[i]));
